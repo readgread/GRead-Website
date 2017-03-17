@@ -21,3 +21,10 @@ body {
     background-size:100% auto;
     background-repeat: no-repeat;
 }
+
+.contentHead {
+	font-size: 250px;
+	font-family: Helvetica, san-serif;
+	
+}
+
