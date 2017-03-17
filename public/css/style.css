@@ -8,18 +8,14 @@ body {
     flex: 1 0 auto;
   }
 
- .slider .slides {
-    background-color: transparent;
-    margin: 0;
-    height: 100%;
+.slider {
+    height: auto;
+    
 }
 
-.slider .slides li img {
-    height: 100;
-    width: 100;
-    background-position: center;
-    background-size:100% auto;
-    background-repeat: no-repeat;
+.slider .slides {
+    background-color: transparent;
+    
 }
 
 .contentHead {
@@ -27,4 +23,5 @@ body {
 	font-family: Helvetica, san-serif;
 	
 }
+
 
