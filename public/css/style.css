@@ -1,4 +1,5 @@
 body {
+    font-family: Helvetica, san-serif;
     display: flex;
     min-height: 100vh;
     flex-direction: column;
@@ -9,13 +10,32 @@ body {
   }
 
 .slider {
-    height: auto;
-    
+    position:relative;
+    width:100%
 }
 
 .slider .slides {
     background-color: transparent;
+    margin:0;
     
+}
+
+.slider .slides li {
+    opacity:0;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:1;
+    width:100%;
+    height:inherit;
+    overflow:hidden
+}
+
+.slider .slides li img {
+   height:100%;
+    width:100%;
+    background-size:cover;
+    background-position:center;
 }
 
 .contentHead {
@@ -23,5 +43,4 @@ body {
 	font-family: Helvetica, san-serif;
 	
 }
-
 
